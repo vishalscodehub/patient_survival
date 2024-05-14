@@ -32,7 +32,7 @@ on:
 
 env:
   AWS_REGION: us-east-1                   
-  ECR_REPOSITORY: public.ecr.aws/k0s6k3n6/vg_mlops_container_reg
+  ECR_REPOSITORY: k0s6k3n6/vg_mlops_container_reg
   ECS_SERVICE: patient_survival
   ECS_CLUSTER: mlops_ecs
   ECS_TASK_DEFINITION: MY_ECS_TASK_DEFINITION
