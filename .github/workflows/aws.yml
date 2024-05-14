@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: k0s6k3n6/vg_mlops_container_reg
   ECS_SERVICE: patient_survival
   ECS_CLUSTER: mlops_ecs
-  ECS_TASK_DEFINITION: MY_ECS_TASK_DEFINITION
+  ECS_TASK_DEFINITION: patient-survival-task.json
   CONTAINER_NAME: patient_survival
 
 permissions:
